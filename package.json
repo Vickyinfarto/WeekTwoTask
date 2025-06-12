@@ -1,0 +1,21 @@
+{
+  "name": "testyy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:qa": "cross-env NODE_ENV=qa npx playwright test",
+    "test:dev": "cross-env NODE_ENV=dev npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "dotenv": "^16.5.0",
+    "playwright": "^1.53.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

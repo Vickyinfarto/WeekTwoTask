@@ -1,0 +1,132 @@
+# Page snapshot
+
+```yaml
+- main:
+  - img "Facebook"
+  - text: Log in to Facebook
+  - textbox "Email address or phone number"
+  - textbox "Password"
+  - button "Log in"
+  - link "Forgotten account?":
+    - /url: https://www.facebook.com/recover/initiate/?ars=facebook_login&cancel_lara_pswd=0
+  - link "Sign up for Facebook":
+    - /url: /r.php?locale=en_GB&display=page
+- list:
+  - listitem: English (UK)
+  - listitem:
+    - link "தமிழ்":
+      - /url: https://www.facebook.com/login
+  - listitem:
+    - link "తెలుగు":
+      - /url: https://ta-in.facebook.com/login
+  - listitem:
+    - link "ಕನ್ನಡ":
+      - /url: https://te-in.facebook.com/login
+  - listitem:
+    - link "اردو":
+      - /url: https://kn-in.facebook.com/login
+  - listitem:
+    - link "हिन्दी":
+      - /url: https://ur-pk.facebook.com/login
+  - listitem:
+    - link "മലയാളം":
+      - /url: https://hi-in.facebook.com/login
+  - listitem:
+    - link "සිංහල":
+      - /url: https://ml-in.facebook.com/login
+  - listitem:
+    - link "ਪੰਜਾਬੀ":
+      - /url: https://si-lk.facebook.com/login
+  - listitem:
+    - link "বাংলা":
+      - /url: https://pa-in.facebook.com/login
+  - listitem:
+    - link "ગુજરાતી":
+      - /url: https://bn-in.facebook.com/login
+  - listitem:
+    - button "Show more languages"
+- contentinfo "Facebook site links":
+  - list:
+    - listitem:
+      - link "Sign Up":
+        - /url: /reg/
+    - listitem:
+      - link "Log in":
+        - /url: /login/
+    - listitem:
+      - link "Messenger":
+        - /url: https://messenger.com/
+    - listitem:
+      - link "Facebook Lite":
+        - /url: /lite/
+    - listitem:
+      - link "Video":
+        - /url: https://www.facebook.com/watch/
+    - listitem:
+      - link "Meta Pay":
+        - /url: https://about.meta.com/technologies/meta-pay
+    - listitem:
+      - link "Meta Store":
+        - /url: https://www.meta.com/
+    - listitem:
+      - link "Meta Quest":
+        - /url: https://www.meta.com/quest/
+    - listitem:
+      - link "Ray-Ban Meta":
+        - /url: https://www.meta.com/smart-glasses/
+    - listitem:
+      - link "Meta AI":
+        - /url: https://www.meta.ai/
+    - listitem:
+      - link "Instagram":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AT1qjSf7paz0PqcQ6UOPbmgbI8TttB2TbmqLI2ocGWY2glOs5PZlbEOZxAPa2P8sIMNnXJvHVQAkoCdeGgwGK11Ja-YKqvuGz6AK6UgRhxj_M60APi0kXhZYodlg9uMJJ_BGHbQkOrx3F5m4Twjc6Pij2Tuec2lEh1U
+    - listitem:
+      - link "Threads":
+        - /url: https://www.threads.com/
+    - listitem:
+      - link "Voting Information Centre":
+        - /url: /votinginformationcenter/?entry_point=c2l0ZQ%3D%3D
+    - listitem:
+      - link "Privacy Policy":
+        - /url: /privacy/policy/?entry_point=facebook_page_footer
+    - listitem:
+      - link "Privacy Centre":
+        - /url: /privacy/center/?entry_point=facebook_page_footer
+    - listitem:
+      - link "About":
+        - /url: https://about.meta.com/
+    - listitem:
+      - link "Create ad":
+        - /url: /ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto
+    - listitem:
+      - link "Create Page":
+        - /url: /pages/create/?ref_type=site_footer
+    - listitem:
+      - link "Developers":
+        - /url: https://developers.facebook.com/?ref=pf
+    - listitem:
+      - link "Careers":
+        - /url: /careers/?ref=pf
+    - listitem:
+      - link "Cookies":
+        - /url: /policies/cookies/
+    - listitem:
+      - link "AdChoices":
+        - /url: https://www.facebook.com/help/568137493302217
+    - listitem:
+      - link "Terms":
+        - /url: /policies?ref=pf
+    - listitem:
+      - link "Help":
+        - /url: /help/?ref=pf
+    - listitem:
+      - link "Contact uploading and non-users":
+        - /url: https://www.facebook.com/help/637205020878504
+    - listitem:
+      - link "Settings":
+        - /url: /settings
+    - listitem:
+      - link "Activity log":
+        - /url: /allactivity?privacy_source=activity_log_top_menu
+- text: Meta © 2025
+```

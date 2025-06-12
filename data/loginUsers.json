@@ -1,0 +1,8 @@
+[
+  { "username": "tomsmith", "password": "SuperSecretPassword!", "type": "valid" },
+  { "username": "invalidUser", "password": "SuperSecretPassword!", "type": "invalidUsername" },
+  { "username": "tomsmith", "password": "wrongPassword", "type": "invalidPassword" },
+  { "username": "", "password": "", "type": "emptyFields" },
+  { "username": "tomsmith", "password": "", "type": "onlyUsername" },
+  { "username": "", "password": "SuperSecretPassword!", "type": "onlyPassword" }
+] 
