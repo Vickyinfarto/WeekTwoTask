@@ -3,7 +3,7 @@ import * as dotenv from 'dotenv';
 import * as path from 'path';
 
 // Set the environment here: 'qa' or 'dev'
-const ENV: 'qa' | 'dev' = 'dev'; // <-- Change this value to 'dev' for DEV environment
+const ENV: 'qa' | 'dev' = 'qa'; // <-- Change this value to 'dev' for DEV environment
 
 const envFile = ENV === 'qa' ? 'qa.env' : 'dev.env';
 dotenv.config({ path: path.resolve(process.cwd(), envFile) });
